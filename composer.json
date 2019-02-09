@@ -1,0 +1,24 @@
+{
+    "name": "r0ulito/formbuilder",
+    "description": "Library to build HTML forms in a easier way",
+    "keywords": ["form", "html", "bootstrap"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Jovy",
+            "email": "roulit77@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Roulito\\Formbuilder\\": "src/"
+        }
+    }
+}
